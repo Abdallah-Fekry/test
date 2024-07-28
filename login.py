@@ -6,10 +6,11 @@ with col1:
     st.image("images/cherry blossom-amico.png")
 with col2:
     st.write("---")
-    st.write("  \n")
+    # st.write("  \n")
     st.header("Login")
     st.write("Enter the best date ever ya zuzu")
     date = st.date_input("")
+    st.write("---")
     if st.button("Login"):
         if date == datetime.date(2021,6,25):
             st.session_state.logged_in = True
