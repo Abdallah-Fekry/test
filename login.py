@@ -10,11 +10,12 @@ with col2:
     st.header("Login")
     st.write("Enter the best date ever ya zuzu")
     date = st.date_input("")
-    if st.button("Login"):
+    bt = st.button("Login"):
+    st.write("---")
+    if bt:
         if date == datetime.date(2021,6,25):
             st.session_state.logged_in = True
             st.rerun()
         else:
             st.error("اخس عليكي اخس!")
-    st.write("---")
     # st.switch_page(home)
