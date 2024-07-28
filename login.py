@@ -10,7 +10,7 @@ with col2:
     st.header("Login")
     st.write("Enter the best date ever ya zuzu")
     date = st.date_input("")
-    bt = st.button("Login"):
+    bt = st.button("Login")
     st.write("---")
     if bt:
         if date == datetime.date(2021,6,25):
