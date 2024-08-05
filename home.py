@@ -2,9 +2,9 @@ import streamlit as st
 import random
 import os
 
-if st.session_state.logged_in == False:
+if st.session_state.first_log == True:
     st.toast("Rotate your mobile screen", icon=":material/sync:")
-    st.session_state.logged_in = True
+    st.session_state.logged_in = False
 
 images = os.listdir("images/us/")
 
