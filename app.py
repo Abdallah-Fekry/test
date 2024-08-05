@@ -5,6 +5,9 @@ st.set_page_config(page_title="Love You Zuzu", page_icon="✨")
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 
+if "first_log" not in st.session_state:
+    st.session_state.first_log = False
+
 home = st.Page("home.py", title='home')
 login = st.Page("login.py")
 
