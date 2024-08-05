@@ -1,5 +1,8 @@
 import streamlit as st
 import random
+import os
+
+images = os.listdir("images/us/")
 
 def line():
     st.write("---")
@@ -103,6 +106,34 @@ line()
 col1, col2 = st.columns([2,3])
 with col1:
     st.image("images/cherry tree-amico.png")
+with col2:
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.error("You are the best thing happened in my life")
+line()
+
+col1, col2 = st.columns([2,3])
+with col1:
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.write("  \n")
+    st.error("You are the best thing happened in my life")
+with col2:
+    st.image("images/magic tree-cuate.png")
+line()
+
+col1, col2 = st.columns([2,3])
+with col1:
+    st.image("images/magic tree-pana.png")
 with col2:
     st.write("  \n")
     st.write("  \n")
