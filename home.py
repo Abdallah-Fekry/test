@@ -117,7 +117,7 @@ with col2:
     st.error("You are the best thing happened in my life")
 line()
 
-col1, col2 = st.columns([2,3])
+col1, col2 = st.columns([2,2])
 with col1:
     st.write("  \n")
     st.write("  \n")
