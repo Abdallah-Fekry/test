@@ -211,5 +211,6 @@ if st.columns([3,1,3])[1].button("Press me"):
     with col1:
         st.image(f"images/us/{images[random.randint(0,len(images)-1)]}")
     with col2:
-        st.write("  \n"*20)
+        for i in range(10):
+            st.write("  \n")
         st.error(f"{messgaes[random.randint(0,len(messgaes)-1)]} :material/favorite:")
