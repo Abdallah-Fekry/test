@@ -2,7 +2,6 @@ import streamlit as st
 import random
 import os
 
-st.write("TEST)
 st.toast("Rotate your mobile screen", icon=":material/sync:")
 
 images = os.listdir("images/us/")
@@ -101,7 +100,7 @@ line()
 col1, col2 = st.columns([3,2])
 with col1:
     st.write("  \n");st.write("  \n");st.write("  \n");st.write("  \n");st.write("  \n");st.write("  \n");st.write("  \n")
-    st.error("You are the place where i feel safe and comfortable in it.")
+    st.error("You are the place where i feel safe and comfortable in it")
 with col2:
     st.image("images/cherry tree-pana.png")
 line()
@@ -129,7 +128,7 @@ with col1:
     st.write("  \n")
     st.write("  \n")
     st.write("  \n")
-    st.error("You are the best thing happened in my life")
+    st.error("You've stolen my heart and I don't want it back. It's in good hands with you")
 with col2:
     st.image("images/magic tree-cuate.png")
 line()
@@ -145,7 +144,7 @@ with col2:
     st.write("  \n")
     st.write("  \n")
     st.write("  \n")
-    st.error("You are the best thing happened in my life")
+    st.error("You make my world brighter")
 line()
 
 col1, col2 = st.columns([3,2])
