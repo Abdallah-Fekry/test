@@ -6,7 +6,7 @@ if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 
 if "first_log" not in st.session_state:
-    st.session_state.first_log = False
+    st.session_state.first_log = True
 
 home = st.Page("home.py", title='home')
 login = st.Page("login.py")
