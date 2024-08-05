@@ -205,7 +205,7 @@ st.image("images/Forever-bro.png")
 st.error("And always :material/favorite:")
 line()
 
-if st.columns([3,1,3])[1].button("Press me"):
+if st.columns([3,1,3])[1].button("Press me again and again"):
     st.balloons()
     col1, col2 = st.columns([2,3])
     with col1:
