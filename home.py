@@ -4,7 +4,7 @@ import os
 
 if st.session_state.first_log == True:
     st.toast("Rotate your mobile screen", icon=":material/sync:")
-    st.session_state.logged_in = False
+    st.session_state.first_log = False
 
 images = os.listdir("images/us/")
 
