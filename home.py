@@ -207,4 +207,15 @@ line()
 
 if st.columns([3,1,3])[1].button("Press me"):
     st.balloons()
-    st.error(f"{messgaes[random.randint(0,len(messgaes)-1)]} :material/favorite:")
+    col1, col2 = st.columns([2,3])
+    with col1:
+        st.image(f"images/us/{images[random.randint(0,len(images)-1)]}")
+    with col2:
+        st.write("  \n")
+        st.write("  \n")
+        st.write("  \n")
+        st.write("  \n")
+        st.write("  \n")
+        st.write("  \n")
+        st.write("  \n")
+        st.error(f"{messgaes[random.randint(0,len(messgaes)-1)]} :material/favorite:")
