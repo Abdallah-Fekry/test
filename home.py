@@ -2,6 +2,7 @@ import streamlit as st
 import random
 import os
 
+st.write("TEST)
 st.toast("Rotate your mobile screen", icon=":material/sync:")
 
 images = os.listdir("images/us/")
